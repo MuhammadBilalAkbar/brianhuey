@@ -11,7 +11,5 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   @override
-  Widget build(BuildContext context) {
-    return const WebView('https://brianhuey.com/');
-  }
+  Widget build(BuildContext context) => const WebView('https://brianhuey.com/');
 }
